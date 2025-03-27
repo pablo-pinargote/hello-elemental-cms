@@ -1,0 +1,20 @@
+{
+    "_id": {
+        "$oid": "67e541a7081f47fee36de68e"
+    },
+    "name": "hello-plugster",
+    "cssDeps": [],
+    "jsDeps": [{
+        "url": "ui/hello-plugster.js",
+        "type": "module"
+    }, {
+        "url": "ui/hello-plugster.default.js",
+        "type": "module"
+    }],
+    "createdAt": {
+        "$date": "2025-03-27T12:16:39.317Z"
+    },
+    "lastModifiedAt": {
+        "$date": "2025-03-27T12:16:39.317Z"
+    }
+}

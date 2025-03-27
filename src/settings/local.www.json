@@ -1,0 +1,32 @@
+{
+    "cmsCoreContext": {
+      "DEBUG": true,
+      "ENV": "development",
+      "SECRET": "WyWITCbotmzy8pVDPY/6eg==",
+      "SITE_NAME": "Elemental CMS Getting Started",
+      "COMPANY": "Kudos Company",
+      "CANONICAL_URL": "https://www.elemental-kudos.com",
+      "LANGUAGES": [
+        "en",
+        "es"
+      ],
+      "DEFAULT_LANGUAGE": "en",
+      "LANGUAGE_MODE": "multi",
+      "STATIC_FOLDER": "static",
+      "MEDIA_FOLDER": "media",
+      "STATIC_URL": "/static",
+      "MEDIA_URL": "/media",
+      "GLOBAL_DEPS_FOLDER": "workspace/global_deps",
+      "PAGES_FOLDER": "workspace/pages",
+      "SNIPPETS_FOLDER": "workspace/snippets",
+      "USER_IDENTITY_SESSION_KEY": "userIdentity",
+      "SESSION_STORAGE_ENABLED": false,
+      "SESSION_TIMEOUT_IN_MINUTES": 10,
+      "DESIGN_MODE_ENABLED": true
+    },
+    "cmsDbContext": {
+      "id": "elemental-hello",
+      "connectionString": "mongodb://root:pwd@localhost:27017/admin",
+      "databaseName": "elemental_hello"
+    }
+  }

@@ -1,0 +1,19 @@
+{
+    "_id": {
+        "$oid": "67e543877e8f3c4d90c03e35"
+    },
+    "order": -1,
+    "name": "jquery",
+    "type": "application/javascript",
+    "url": "https://code.jquery.com/jquery-3.7.1.min.js",
+    "meta": {
+        "integrity": "sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=",
+        "crossorigin": "anonymous"
+    },
+    "createdAt": {
+        "$date": "2025-03-27T12:24:39.283Z"
+    },
+    "lastModifiedAt": {
+        "$date": "2025-03-27T12:24:39.283Z"
+    }
+}

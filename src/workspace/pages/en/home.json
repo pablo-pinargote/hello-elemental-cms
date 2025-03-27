@@ -1,0 +1,21 @@
+{
+    "_id": {
+        "$oid": "67e53eab8cc84ebcbf96bd85"
+    },
+    "name": "home",
+    "language": "en",
+    "title": "home page",
+    "description": "",
+    "isHome": true,
+    "cssDeps": [{
+        "url": "styles/common.css",
+        "type": "text/css"
+    }],
+    "jsDeps": [],
+    "createdAt": {
+        "$date": "2025-03-27T12:03:55.766Z"
+    },
+    "lastModifiedAt": {
+        "$date": "2025-03-27T12:03:55.766Z"
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "cmsCoreContext": {
+      "DEBUG": true,
+      "ENV": "development",
+      "SECRET": "WyWITCbotmzy8pVDPY/6eg==",
+      "SITE_NAME": "Elemental CMS Getting Started",
+      "COMPANY": "Kudos Company",
+      "CANONICAL_URL": "https://www.elemental-kudos.com",
+      "LANGUAGES": [
+        "en",
+        "es"
+      ],
+      "DEFAULT_LANGUAGE": "en",
+      "LANGUAGE_MODE": "multi",
+      "STATIC_FOLDER": "static",
+      "MEDIA_FOLDER": "media",
+      "STATIC_URL": "https://storage.googleapis.com/getting-started-static-bucket",
+      "MEDIA_URL": "https://storage.googleapis.com/getting-started-media-bucket",
+      "STATIC_BUCKET": "getting-started-static-bucket",
+      "MEDIA_BUCKET": "getting-started-media-bucket",
+      "GOOGLE_SERVICE_ACCOUNT_INFO": {
+        "type": "service_account"
+      },
+      "GLOBAL_DEPS_FOLDER": "workspace/global_deps",
+      "PAGES_FOLDER": "workspace/pages",
+      "SNIPPETS_FOLDER": "workspace/snippets"
+    },
+    "cmsDbContext": {
+      "id": "elemental-hello",
+      "connectionString": "mongodb://root:pwd@localhost:27017/admin",
+      "databaseName": "elemental_hello"
+    }
+  }
